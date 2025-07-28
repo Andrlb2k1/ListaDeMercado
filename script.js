@@ -22,9 +22,11 @@ function deleteIt(){
 }
 
 function btEvents(){
+
   for(let i = 0; i < itemBts.length; i++){
     itemBts[i].addEventListener("click", deleteIt);
   }
+  
 }
 
 button.addEventListener("click", elmt);
